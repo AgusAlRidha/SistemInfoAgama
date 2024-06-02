@@ -1,0 +1,15 @@
+release/formbaptis.o
+release/formjemaat.o
+release/formnikah.o
+release/formpelayan.o
+release/formsuratbaptis.o
+release/formsuratnikah.o
+release/main.o
+release/formutama.o
+release/moc_formbaptis.o
+release/moc_formjemaat.o
+release/moc_formnikah.o
+release/moc_formpelayan.o
+release/moc_formsuratbaptis.o
+release/moc_formsuratnikah.o
+release/moc_formutama.o

@@ -1,0 +1,15 @@
+debug/formbaptis.o
+debug/formjemaat.o
+debug/formnikah.o
+debug/formpelayan.o
+debug/formsuratbaptis.o
+debug/formsuratnikah.o
+debug/main.o
+debug/formutama.o
+debug/moc_formbaptis.o
+debug/moc_formjemaat.o
+debug/moc_formnikah.o
+debug/moc_formpelayan.o
+debug/moc_formsuratbaptis.o
+debug/moc_formsuratnikah.o
+debug/moc_formutama.o
