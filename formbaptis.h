@@ -8,6 +8,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class FormBaptis;
@@ -19,6 +20,7 @@ class FormBaptis : public QWidget
 
 public:
     explicit FormBaptis(QWidget *parent = nullptr);
+    void loadtableBaptis();
     ~FormBaptis();
 
 private slots:
@@ -30,11 +32,14 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_tableBaptis_activated(const QModelIndex &index);
+
 private:
     Ui::FormBaptis *ui;
     QSqlDatabase konek;
     QSqlQuery sql;
     QSqlRecord cari;
+    QSqlQueryModel * tabelModel;
 };
 
 #endif // FORMBAPTIS_H

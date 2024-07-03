@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>570</width>
-    <height>396</height>
+    <width>692</width>
+    <height>570</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,19 +17,12 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>130</y>
+     <y>80</y>
      <width>381</width>
-     <height>111</height>
+     <height>162</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
-     <widget class="QLabel" name="idPelayanLabel">
-      <property name="text">
-       <string>Id Pelayan</string>
-      </property>
-     </widget>
-    </item>
     <item row="0" column="1">
      <widget class="QLineEdit" name="idPelayanLineEdit"/>
     </item>
@@ -62,6 +55,13 @@
     </item>
     <item row="3" column="1">
      <widget class="QLineEdit" name="gambarLineEdit"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="idPelayanLabel">
+      <property name="text">
+       <string>Id Pelayan</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -117,56 +117,14 @@
     <string>Simpan</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QTableView" name="tablePelayan">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>180</y>
-     <width>83</width>
-     <height>29</height>
+     <x>80</x>
+     <y>330</y>
+     <width>391</width>
+     <height>192</height>
     </rect>
-   </property>
-   <property name="text">
-    <string>Cari</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_6">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>180</y>
-     <width>83</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Simpan</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_7">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>180</y>
-     <width>83</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Hapus</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_8">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>180</y>
-     <width>83</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Edit</string>
    </property>
   </widget>
  </widget>

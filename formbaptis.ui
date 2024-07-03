@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>565</width>
-    <height>524</height>
+    <width>729</width>
+    <height>639</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -146,6 +146,16 @@
    </property>
    <property name="text">
     <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableBaptis">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>320</y>
+     <width>381</width>
+     <height>221</height>
+    </rect>
    </property>
   </widget>
  </widget>

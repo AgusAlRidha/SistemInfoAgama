@@ -8,6 +8,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class FormPelayan;
@@ -19,6 +20,7 @@ class FormPelayan : public QWidget
 
 public:
     explicit FormPelayan(QWidget *parent = nullptr);
+    void loadtablePelayan();
     ~FormPelayan();
 
 private slots:
@@ -30,11 +32,14 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_tablePelayan_activated(const QModelIndex &index);
+
 private:
     Ui::FormPelayan *ui;
     QSqlDatabase konek;
     QSqlQuery sql;
     QSqlRecord cari;
+    QSqlQueryModel * tabelModel;
 };
 
 #endif // FORMPELAYAN_H

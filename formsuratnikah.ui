@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>527</width>
-    <height>439</height>
+    <width>684</width>
+    <height>524</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>150</y>
+     <x>120</x>
+     <y>80</y>
      <width>381</width>
-     <height>91</height>
+     <height>100</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -58,8 +58,8 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>250</y>
+     <x>320</x>
+     <y>190</y>
      <width>83</width>
      <height>29</height>
     </rect>
@@ -71,8 +71,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>250</y>
+     <x>120</x>
+     <y>190</y>
      <width>83</width>
      <height>29</height>
     </rect>
@@ -84,8 +84,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>250</y>
+     <x>220</x>
+     <y>190</y>
      <width>83</width>
      <height>29</height>
     </rect>
@@ -97,14 +97,24 @@
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>250</y>
+     <x>420</x>
+     <y>190</y>
      <width>83</width>
      <height>29</height>
     </rect>
    </property>
    <property name="text">
     <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableSuratn">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>381</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

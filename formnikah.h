@@ -8,6 +8,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class FormNikah;
@@ -19,6 +20,7 @@ class FormNikah : public QWidget
 
 public:
     explicit FormNikah(QWidget *parent = nullptr);
+    void loadtableNikah();
     ~FormNikah();
 
 private slots:
@@ -30,11 +32,14 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_tableNikah_activated(const QModelIndex &index);
+
 private:
     Ui::FormNikah *ui;
     QSqlDatabase konek;
     QSqlQuery sql;
     QSqlRecord cari;
+    QSqlQueryModel * tabelModel;
 };
 
 #endif // FORMNIKAH_H

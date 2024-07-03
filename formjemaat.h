@@ -8,6 +8,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class FormJemaat;
@@ -19,6 +20,7 @@ class FormJemaat : public QWidget
 
 public:
     explicit FormJemaat(QWidget *parent = nullptr);
+    void loadtableJemaat();
     ~FormJemaat();
 
 private slots:
@@ -30,11 +32,14 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_tableJemaat_activated(const QModelIndex &index);
+
 private:
     Ui::FormJemaat *ui;
     QSqlDatabase konek;
     QSqlQuery sql;
     QSqlRecord cari;
+    QSqlQueryModel * tabelModel;
 };
 
 #endif // FORMJEMAAT_H

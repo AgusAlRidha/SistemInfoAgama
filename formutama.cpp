@@ -1,5 +1,6 @@
 #include "formutama.h"
 #include "ui_formutama.h"
+#include <qstring.h>
 
 formutama::formutama(QWidget *parent)
     : QMainWindow(parent)
