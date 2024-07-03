@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 02 Jun 2024 pada 14.16
--- Versi server: 10.4.32-MariaDB
--- Versi PHP: 8.2.12
+-- Waktu pembuatan: 03 Jul 2024 pada 09.51
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,7 +32,6 @@ CREATE TABLE `baptis` (
   `id_jemaat` varchar(30) NOT NULL,
   `nama_baptis` varchar(30) NOT NULL,
   `jenis_kelamin` varchar(30) NOT NULL,
-  `tempa_lahir` varchar(30) NOT NULL,
   `nama_ayah` varchar(35) NOT NULL,
   `nama_ibu` varchar(35) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -57,7 +56,8 @@ CREATE TABLE `jemaat` (
 --
 
 INSERT INTO `jemaat` (`id_jemaat`, `nama`, `jenis_kelamin`, `tempat_lahir`, `alamat`, `telpon`) VALUES
-('1234', '3', 'L', '3', '3', '3');
+('0001', 'fiqri', 'L', 'teluk dalam', 'arimantan', '21020380'),
+('0002', 'dayat', 'L', 'bjm', 'hksn', '928319289');
 
 -- --------------------------------------------------------
 
